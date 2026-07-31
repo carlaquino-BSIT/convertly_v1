@@ -67,7 +67,7 @@
                     <a @click="goTo('about')" class="block cursor-pointer hover:text-white"> About </a>
 
                     <p class="border-t border-white/10 pt-5 text-[10px] normal-case tracking-normal text-white/30">
-                        Created by Carl Angelo Aquino
+                        Convertly v1.0
                     </p>
                 </div>
             </div>
