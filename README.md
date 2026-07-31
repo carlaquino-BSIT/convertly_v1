@@ -1,5 +1,41 @@
-# Vue 3 + Vite
+# Convertly v1
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Convertly is a web-based document conversion application that converts Microsoft Word (.DOCX) files into PDF format.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- DOCX to PDF conversion
+- File upload system
+- PDF download after conversion
+- Vue 3 user interface
+- Node.js + Express backend API
+- LibreOffice headless conversion engine
+
+## Technologies Used
+
+### Frontend
+
+- Vue 3
+- Vite
+- Tailwind CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- Multer
+- LibreOffice
+
+## Requirements
+
+Install the following before running the project:
+
+- Node.js
+- LibreOffice
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/carlaquino-BSIT/convertly_v1.git
