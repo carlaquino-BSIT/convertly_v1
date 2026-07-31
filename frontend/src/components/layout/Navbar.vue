@@ -24,6 +24,10 @@
             <ul
                 class="hidden items-center gap-6 text-[10px] font-medium uppercase tracking-[0.2em] text-gray-400 md:flex"
             >
+             <li>
+                    <a @click="goTo('about')" class="cursor-pointer transition hover:text-white"> About </a>
+                </li>
+
                 <li>
                     <a @click="goTo('tools')" class="cursor-pointer transition hover:text-white"> Tools </a>
                 </li>
@@ -31,11 +35,6 @@
                 <li>
                     <a @click="goTo('features')" class="cursor-pointer transition hover:text-white"> Features </a>
                 </li>
-
-                <li>
-                    <a @click="goTo('about')" class="cursor-pointer transition hover:text-white"> About </a>
-                </li>
-
                 <li class="border-l border-white/10 pl-6 normal-case tracking-normal text-white/30">
                     Created by Carl Angelo Aquino
                 </li>

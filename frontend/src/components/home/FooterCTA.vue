@@ -1,40 +1,41 @@
 <template>
-    <section class="relative mx-auto max-w-6xl px-5 py-24 lg:px-8">
-        <!-- DIVIDER -->
-        <div class="absolute top-0 left-5 right-5 h-px bg-zinc-800 lg:left-8 lg:right-8"></div>
+    <section id="cta" class="relative overflow-hidden bg-black text-white">
+        <div class="mx-auto max-w-6xl px-5 py-24 lg:px-8">
+            <!-- DIVIDER -->
 
-        <!-- CTA CARD -->
+            <div class="absolute top-0 left-5 right-5 h-px bg-white/10 lg:left-8 lg:right-8"></div>
 
-        <div
-            class="relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.02] px-6 py-14 text-center sm:px-12"
-        >
-            <!-- Glow -->
+            <!-- CTA CARD -->
 
-            <div class="absolute inset-x-0 top-0 mx-auto h-32 max-w-md bg-white/5 blur-3xl"></div>
+            <div
+                class="relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.02] px-6 py-16 text-center sm:px-12"
+            >
+                <!-- GLOW -->
 
-            <div class="relative">
-                <p class="text-[10px] uppercase tracking-[0.35em] text-white/40">Start Converting</p>
+                <div class="absolute left-1/2 top-0 h-40 w-96 -translate-x-1/2 bg-white/10 blur-[100px]"></div>
 
-                <h2 class="mt-4 text-3xl sm:text-4xl font-bold uppercase tracking-[0.15em] leading-tight">
-                    Ready To Convert
-                    <br />
+                <div class="relative mx-auto max-w-3xl">
+                    <!-- LABEL -->
 
-                    <span class="text-white/40"> Your Files? </span>
-                </h2>
+                    <p class="text-[10px] uppercase tracking-[0.35em] text-white/40">Start Converting</p>
 
-                <p class="mx-auto mt-5 max-w-xl text-sm leading-6 text-white/50">
-                    Upload your files and experience fast, simple, and free conversion tools.
-                </p>
+                    <!-- TITLE -->
 
-                <!-- BUTTON -->
+                    <h2 class="mt-5 text-3xl sm:text-5xl font-bold uppercase tracking-[0.08em] leading-tight">
+                        Convert Your
 
-                <button
-                    class="mt-8 inline-flex h-11 items-center gap-2 rounded-xl bg-white px-7 text-[10px] font-bold uppercase tracking-[0.15em] text-black transition hover:-translate-y-1"
-                >
-                    <Icon icon="lucide:upload-cloud" />
+                        <br />
 
-                    Start Converting
-                </button>
+                        <span class="text-white/40"> Files Today. </span>
+                    </h2>
+
+                    <!-- DESCRIPTION -->
+
+                    <p class="mx-auto mt-8 max-w-xl text-sm md:text-base leading-8 text-white/50">
+                        Upload your files and experience fast, simple, and reliable conversion tools designed for
+                        everyone.
+                    </p>
+                </div>
             </div>
         </div>
     </section>

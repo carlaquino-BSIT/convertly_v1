@@ -3,7 +3,6 @@
         id="home"
         class="relative min-h-screen flex items-center overflow-hidden bg-black text-white border-b border-white/10"
     >
-        
         <!-- CONTENT -->
 
         <div class="relative z-10 mx-auto max-w-6xl w-full px-5 py-20 lg:px-8">
@@ -32,20 +31,12 @@
                 <!-- ACTIONS -->
 
                 <div class="mt-10 flex flex-wrap items-center justify-center gap-3">
-                    <button
+                    <button @click="goTo('tools')"
                         class="flex h-11 items-center gap-2 rounded-xl bg-white px-7 text-[10px] font-bold uppercase tracking-[0.15em] text-black transition hover:-translate-y-1 hover:bg-zinc-100"
                     >
                         <Icon icon="ri:upload-cloud-2-line" class="text-sm" />
 
                         Start Converting
-                    </button>
-
-                    <button
-                        class="flex h-11 items-center gap-2 rounded-xl border border-white/10 bg-white/[0.02] px-7 text-[10px] font-bold uppercase tracking-[0.15em] text-white transition hover:-translate-y-1 hover:bg-white/[0.05]"
-                    >
-                        View Tools
-
-                        <Icon icon="ri:arrow-down-line" class="text-sm" />
                     </button>
                 </div>
 
@@ -77,4 +68,14 @@
 
 <script setup>
     import { Icon } from "@iconify/vue";
+    
+const goTo = (section) => {
+    const element = document.getElementById(section);
+
+    if (element) {
+        element.scrollIntoView({
+            behavior: "smooth",
+        });
+    }
+};
 </script>

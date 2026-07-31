@@ -1,32 +1,59 @@
 <template>
-    <section id="about" class="mx-auto max-w-6xl px-5 pb-24 lg:px-8">
-        <div class="max-w-3xl">
-            <p class="text-[10px] uppercase tracking-[0.35em] text-white/40">About Convertly</p>
+    <section id="about" class="relative overflow-hidden border-b border-white/10 bg-black text-white">
+        <div class="mx-auto max-w-6xl px-5 py-24 lg:px-8">
+            <div class="max-w-3xl">
+                <!-- LABEL -->
 
-            <h2 class="mt-4 text-3xl md:text-4xl font-bold uppercase tracking-[0.15em] text-white">
-                Simple Document Conversion
-            </h2>
+                <p class="text-[10px] uppercase tracking-[0.35em] text-white/40">About Convertly</p>
 
-            <p class="mt-6 text-sm leading-8 text-white/50">
-                Convertly is a free online document conversion platform designed to help users organize, convert, and
-                prepare their files quickly and easily.
-            </p>
+                <!-- TITLE -->
 
-            <p class="mt-5 text-sm leading-8 text-white/50">
-                Whether you need to merge PDF files, split pages, compress documents, or convert files into different
-                formats, Convertly provides simple tools that remove unnecessary steps from everyday document tasks.
-            </p>
+                <h2 class="mt-5 text-3xl md:text-5xl font-bold uppercase tracking-[0.08em] leading-tight">
+                    Simple Tools.
+                    <br />
 
-            <p class="mt-5 text-sm leading-8 text-white/50">
-                No account is required to use Convertly. Users can access the available tools immediately without
-                registration. Uploaded files are processed for conversion and are not collected or stored by the
-                platform.
-            </p>
+                    <span class="text-white/40"> Powerful Conversion. </span>
+                </h2>
 
-            <p class="mt-5 text-sm leading-8 text-white/50">
-                Built with simplicity and privacy in mind, Convertly focuses on providing a clean and reliable
-                experience for anyone who needs fast document conversion.
-            </p>
+                <!-- DESCRIPTION -->
+
+                <p class="mt-8 text-sm md:text-base leading-8 text-white/50">
+                    Convertly is a modern file conversion platform built to make document tasks faster and easier.
+                    Convert your files without complicated steps or unnecessary account registrations.
+                </p>
+
+                <p class="mt-5 text-sm md:text-base leading-8 text-white/50">
+                    From Word documents to PDF files and other conversion tools, Convertly provides a clean and simple
+                    experience designed for everyday users.
+                </p>
+
+                <p class="mt-5 text-sm md:text-base leading-8 text-white/50">
+                    Your files are processed only for conversion. Convertly focuses on speed, simplicity, and privacy
+                    while keeping document management effortless.
+                </p>
+
+                <!-- FEATURES -->
+
+                <div class="mt-10 grid gap-4 sm:grid-cols-3">
+                    <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+                        <p class="text-xs uppercase tracking-[0.25em] text-white/40">Fast</p>
+
+                        <p class="mt-2 text-sm text-white">Quick conversion process</p>
+                    </div>
+
+                    <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+                        <p class="text-xs uppercase tracking-[0.25em] text-white/40">Secure</p>
+
+                        <p class="mt-2 text-sm text-white">Privacy focused workflow</p>
+                    </div>
+
+                    <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+                        <p class="text-xs uppercase tracking-[0.25em] text-white/40">Free</p>
+
+                        <p class="mt-2 text-sm text-white">No account required</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </template>

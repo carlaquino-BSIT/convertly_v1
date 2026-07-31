@@ -1,57 +1,65 @@
 <template>
-    <section class="relative mx-auto max-w-6xl px-5 py-24 lg:px-8">
-        <!-- DIVIDER -->
-        <div class="absolute top-0 left-5 right-5 h-px bg-zinc-800 lg:left-8 lg:right-8"></div>
+    <section id="features" class="relative overflow-hidden border-b border-white/10 bg-black text-white">
+        <div class="mx-auto max-w-6xl px-5 py-24 lg:px-8">
+        
 
-        <!-- HEADER -->
-        <div class="mb-12">
-            <p class="text-[10px] uppercase tracking-[0.35em] text-white/40">Why Convertly</p>
+            <!-- HEADER -->
 
-            <h2 class="mt-3 text-2xl md:text-3xl font-bold uppercase tracking-[0.15em]">Built For Simplicity</h2>
+            <div class="max-w-3xl mb-12">
+                <p class="text-[10px] uppercase tracking-[0.35em] text-white/40">Why Convertly</p>
 
-            <p class="mt-4 max-w-xl text-sm leading-6 text-white/50">
-                Convert files quickly with a simple, secure, and user-friendly experience.
-            </p>
-        </div>
+                <h2 class="mt-5 text-3xl md:text-5xl font-bold uppercase tracking-[0.08em] leading-tight">
+                    Built For
 
-        <!-- FEATURES GRID -->
+                    <br />
 
-        <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            <FeatureCard
-                icon="lucide:zap"
-                title="Fast Conversion"
-                description="Process your files quickly with optimized conversion tools."
-            />
+                    <span class="text-white/40"> Simplicity. </span>
+                </h2>
 
-            <FeatureCard
-                icon="lucide:shield-check"
-                title="Private & Secure"
-                description="Your files are handled safely without unnecessary accounts."
-            />
+                <p class="mt-8 text-sm md:text-base leading-8 text-white/50">
+                    Convert files with a clean, fast, and reliable experience designed for everyday document tasks.
+                </p>
+            </div>
 
-            <FeatureCard
-                icon="lucide:badge-check"
-                title="Free Forever"
-                description="Access essential conversion tools without any subscription."
-            />
+            <!-- FEATURES GRID -->
 
-            <FeatureCard
-                icon="lucide:files"
-                title="Multiple Formats"
-                description="Support documents, images, and different file types."
-            />
+            <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                <FeatureCard
+                    icon="lucide:zap"
+                    title="Fast Conversion"
+                    description="Quickly transform your files with efficient conversion processes."
+                />
 
-            <FeatureCard
-                icon="lucide:monitor-smartphone"
-                title="Works Everywhere"
-                description="Use Convertly on desktop, tablet, and mobile devices."
-            />
+                <FeatureCard
+                    icon="lucide:shield-check"
+                    title="Private & Secure"
+                    description="Your files are processed safely with privacy in mind."
+                />
 
-            <FeatureCard
-                icon="lucide:smile"
-                title="Simple Experience"
-                description="Clean interface designed for everyone."
-            />
+                <FeatureCard
+                    icon="lucide:badge-check"
+                    title="Free To Use"
+                    description="Access essential conversion tools without subscriptions."
+                />
+
+                <FeatureCard
+                    icon="lucide:files"
+                    title="Multiple Formats"
+                    description="Convert documents, images, and different file types easily."
+                />
+
+                <FeatureCard
+                    icon="lucide:monitor-smartphone"
+                    title="Every Device"
+                    description="Enjoy a smooth experience across desktop, tablet, and mobile."
+                />
+
+                <FeatureCard
+                    icon="lucide:sparkles"
+                    title="Simple Interface"
+                    description="A clean design that keeps file conversion effortless."
+                />
+            </div>
         </div>
     </section>
 </template>
