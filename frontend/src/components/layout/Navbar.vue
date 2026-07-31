@@ -36,7 +36,7 @@
                     <a @click="goTo('features')" class="cursor-pointer transition hover:text-white"> Features </a>
                 </li>
                 <li class="border-l border-white/10 pl-6 normal-case tracking-normal text-white/30">
-                    Created by Carl Angelo Aquino
+                    Convertly v1.0
                 </li>
             </ul>
 
